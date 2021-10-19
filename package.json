@@ -4,11 +4,15 @@
   "description": "Website for Coffee & Comestibles.",
   "browser": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "sass --watch css/custom.scss css/styles.css"
   },
   "author": "Danny Scally",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "sass": "^1.43.2"
   }
 }
