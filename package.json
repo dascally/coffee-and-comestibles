@@ -1,0 +1,14 @@
+{
+  "name": "coffee-and-comestibles",
+  "version": "1.0.0",
+  "description": "Website for Coffee & Comestibles.",
+  "browser": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny Scally",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
