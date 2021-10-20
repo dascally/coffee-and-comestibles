@@ -1,13 +1,14 @@
-// Theme colors
+// Color palette
 $primary: hsla(17, 13%, 32%, 1);
 $secondary: hsla(83, 33%, 72%, 1);
-$info: hsla(301, 26%, 60%, 1);
-$light: hsla(49, 51%, 92%, 1);
+$info: hsla(301, 26%, 47%, 1);
+$light: hsla(50, 50%, 93%, 1);
 $dark: hsla(215, 35%, 12%, 1);
 
-// Body colors
+// Colors
 $body-bg: $light;
 $body-color: $dark;
+$link-color: $info;
 
 // Navbar styling
 $navbar-light-color: rgba($dark, 0.75);
