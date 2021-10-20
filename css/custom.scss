@@ -35,3 +35,9 @@ h6 {
 .nav-link.active {
   font-weight: bold;
 }
+
+body > footer {
+  $footer-color: tint-color($secondary, 40%);
+  background: $footer-color;
+  box-shadow: 0 100vh 0 100vh $footer-color;
+}
