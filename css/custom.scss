@@ -1,17 +1,20 @@
+// Theme colors
 $primary: hsla(17, 13%, 32%, 1);
 $secondary: hsla(83, 33%, 72%, 1);
 $info: hsla(301, 26%, 60%, 1);
 $light: hsla(49, 51%, 92%, 1);
 $dark: hsla(215, 35%, 12%, 1);
 
+// Body colors
 $body-bg: $light;
 $body-color: $dark;
 
+// Navbar styling
 $navbar-light-color: rgba($dark, 0.75);
 $navbar-light-hover-color: rgba($primary, 0.97);
 $navbar-light-active-color: rgba($primary, 1);
 $navbar-light-disabled-color: rgba($dark, 0.4);
-$nav-link-font-size: large;
+$nav-link-font-size: x-large;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
@@ -25,6 +28,9 @@ h6 {
   color: var(--bs-primary);
 }
 
+.nav-link {
+  font-family: 'Caveat', $font-family-sans-serif;
+}
 .nav-link.active {
   font-weight: bold;
 }
