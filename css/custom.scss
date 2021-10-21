@@ -17,6 +17,9 @@ $navbar-light-active-color: rgba($primary, 1);
 $navbar-light-disabled-color: rgba($dark, 0.4);
 $nav-link-font-size: x-large;
 
+// Font styling
+$blockquote-font-size: 1.12rem;
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 header {
