@@ -11166,6 +11166,10 @@ h6,
   color: var(--bs-primary);
 }
 
+.card {
+  background-color: #fbf9f2;
+}
+
 body > footer {
   background: #d7e2c6;
   box-shadow: 0 100vh 0 100vh #d7e2c6;
