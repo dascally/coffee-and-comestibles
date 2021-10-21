@@ -1,7 +1,7 @@
 // Color palette
 $primary: hsla(17, 13%, 32%, 1);
 $secondary: hsla(83, 33%, 72%, 1);
-$info: hsla(301, 26%, 47%, 1);
+$info: hsla(301, 26%, 43%, 1);
 $light: hsla(50, 50%, 93%, 1);
 $dark: hsla(215, 35%, 12%, 1);
 
@@ -89,7 +89,7 @@ h6 {
 body > footer {
   margin-top: $spacer * 3;
 
-  $footer-color: tint-color($secondary, 40%);
+  $footer-color: tint-color($secondary, 50%);
   background: $footer-color;
   box-shadow: 0 100vh 0 100vh $footer-color;
 }
