@@ -18,6 +18,21 @@ $navbar-light-disabled-color: rgba($dark, 0.4);
 $nav-link-font-size: x-large;
 
 // Font styling
+// Caveat is a little small, so size headings up a bit
+$h1-font-size: 3rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.75rem;
+$h5-font-size: 1.5rem;
+$h6-font-size: 1.25rem;
+$display-font-sizes: (
+  1: 5.5rem,
+  2: 5rem,
+  3: 4.5rem,
+  4: 4rem,
+  5: 3.5rem,
+  6: 3rem,
+);
 $blockquote-font-size: 1rem;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
