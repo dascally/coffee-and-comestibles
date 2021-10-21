@@ -11123,6 +11123,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header {
+  z-index: 1;
+}
+
+.nav-link {
+  font-family: "Caveat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.splash {
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+  width: calc(100% + 2rem);
+  height: 100vh;
+  background-image: url("../images/three-beverages-from-above.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.splash hbody {
+  --bs-bg-opacity: 0.9;
+}
+
 h1, .h1,
 h2,
 .h2,
@@ -11136,14 +11164,6 @@ h6,
 .h6 {
   font-family: "Caveat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: var(--bs-primary);
-}
-
-.nav-link {
-  font-family: "Caveat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.nav-link.active {
-  font-weight: bold;
 }
 
 body > footer {

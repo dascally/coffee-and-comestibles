@@ -19,6 +19,36 @@ $nav-link-font-size: x-large;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+header {
+  // Bring the header + navbar in front of the positioned splash div
+  z-index: 1;
+}
+
+.nav-link {
+  font-family: 'Caveat', $font-family-sans-serif;
+}
+.nav-link.active {
+  font-weight: bold;
+}
+
+.splash {
+  // Size and position to occupy initial view of page
+  position: relative;
+  top: -$spacer;
+  left: -$spacer;
+  width: calc(100% + 2 * $spacer);
+  height: 100vh;
+
+  // Background; should only fill initial view
+  background-image: url('../images/three-beverages-from-above.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.splash hbody {
+  --bs-bg-opacity: 0.9;
+}
+
 h1,
 h2,
 h3,
@@ -27,13 +57,6 @@ h5,
 h6 {
   font-family: 'Caveat', $font-family-sans-serif;
   color: var(--bs-primary);
-}
-
-.nav-link {
-  font-family: 'Caveat', $font-family-sans-serif;
-}
-.nav-link.active {
-  font-weight: bold;
 }
 
 body > footer {
