@@ -34,6 +34,11 @@ header {
   font-weight: bold;
 }
 
+section,
+.splash {
+  margin-bottom: $spacer * 3;
+}
+
 .splash {
   // Size and position to occupy initial view of page
   position: relative;
@@ -67,6 +72,8 @@ h6 {
 }
 
 body > footer {
+  margin-top: $spacer * 3;
+
   $footer-color: tint-color($secondary, 40%);
   background: $footer-color;
   box-shadow: 0 100vh 0 100vh $footer-color;
