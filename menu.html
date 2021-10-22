@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Coffee & Comestibles: Menu</title>
+  </head>
+  <body>
+    <header class="position-relative">
+      <nav
+        class="
+          navbar navbar-expand-md
+          justify-content-around
+          navbar-light
+          bg-secondary
+        "
+      >
+        <a class="navbar-brand mx-4 me-lg-5" href="index.html"
+          ><span class="bi-cup me-1 fs-5"></span>Coffee & Comestibles</a
+        >
+        <div
+          class="
+            navbar-nav
+            nav-fill
+            navbar-collapse
+            collapse
+            justify-content-center
+          "
+          id="globalNav"
+        >
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="#" class="nav-link active" aria-current="page">Menu</a>
+          <a href="events.html" class="nav-link">Events</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <div class="vr text-primary d-none d-md-block"></div>
+          <div class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="outside"
+              aria-expanded="false"
+              >Login</a
+            >
+            <div class="dropdown-menu dropdown-menu-end bg-light mb-3">
+              <form class="py-1 px-3">
+                <div class="mb-2">
+                  <label for="loginEmail" class="form-label mb-1">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="loginEmail"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="loginPassword" class="form-label mb-1"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    name="password"
+                    id="loginPassword"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-2">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      name="remember"
+                      id="loginRemember"
+                      class="form-check-input"
+                    />
+                    <label for="loginRemember" class="form-check-label"
+                      >Remember me</label
+                    >
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary">Log in</button>
+                </div>
+              </form>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">New? Make an account.</a>
+              <a href="#" class="dropdown-item">Forgot password?</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-md-none"></div>
+        <button
+          class="navbar-toggler mx-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#globalNav"
+          aria-controls="globalNav"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="m-3">
+      <section class="container">
+        <div class="row"></div>
+      </section>
+    </main>
+
+    <footer class="px-4 py-3">
+      <div class="row gx-5 gy-4">
+        <div
+          class="
+            col-sm-6 col-md-3 col-lg
+            d-flex
+            align-items-center
+            justify-content-center
+            text-nowrap
+          "
+        >
+          <address>1234 Street Avenue<br />Townopolis, ST 54321</address>
+        </div>
+        <div class="vr p-0 text-primary d-none d-sm-block"></div>
+        <div class="col-sm col-md-auto col-lg text-nowrap">
+          <table class="table table-sm table-borderless">
+            <caption class="caption-top text-center text-reset">
+              Hours
+            </caption>
+            <tr>
+              <th class="fw-light">Monday-Friday</th>
+              <td>9am - 5pm</td>
+            </tr>
+            <tr>
+              <th class="fw-light">Saturday</th>
+              <td>9am - 1pm</td>
+            </tr>
+            <tr>
+              <th class="fw-light">Sunday</th>
+              <td>closed</td>
+            </tr>
+          </table>
+        </div>
+        <div class="vr p-0 text-primary d-none d-md-block"></div>
+        <div
+          class="
+            col-md col-lg
+            d-flex
+            flex-column
+            align-items-center
+            justify-content-center
+          "
+        >
+          <address class="lh-lg">
+            <a href="mailto:contact@coffeeandcomestibles.com"
+              ><span class="bi-envelope me-2" aria-label="Email"></span
+              >contact@coffeeandcomestibles.com</a
+            ><br />
+            <a href="tel:123-555-7890"
+              ><span class="bi-telephone me-2" aria-label="Telephone"></span
+              >(123) 555-7890</a
+            >
+          </address>
+          <div class="fs-4 text-primary d-flex">
+            <a href="#" class="link-primary me-5"
+              ><span class="bi-instagram"></span
+            ></a>
+            <a href="#" class="link-primary me-5"
+              ><span class="bi-facebook"></span
+            ></a>
+            <a href="#" class="link-primary"
+              ><span class="bi-twitter"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
