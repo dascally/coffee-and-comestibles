@@ -17,6 +17,7 @@ $navbar-light-hover-color: rgba($primary, 0.97);
 $navbar-light-active-color: rgba($primary, 1);
 $navbar-light-disabled-color: rgba($dark, 0.4);
 $nav-link-font-size: x-large;
+$navbar-brand-font-size: 1.75rem;
 
 // Font styling
 // Caveat is a little small, so size headings up a bit
@@ -43,11 +44,18 @@ header {
   z-index: 1;
 }
 
-.nav-link {
+.nav-link,
+.navbar-brand {
   font-family: 'Caveat', $font-family-sans-serif;
 }
 .nav-link.active {
   font-weight: bold;
+}
+.navbar .navbar-brand {
+  color: tint-color($primary, 8%);
+}
+.navbar-brand > .bi-cup {
+  vertical-align: -3%;
 }
 
 section,
