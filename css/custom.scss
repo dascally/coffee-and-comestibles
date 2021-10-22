@@ -9,6 +9,7 @@ $dark: hsla(215, 35%, 12%, 1);
 $body-bg: $light;
 $body-color: $dark;
 $link-color: $info;
+$input-bg: mix(white, $body-bg, 75%);
 
 // Navbar styling
 $navbar-light-color: rgba($dark, 0.75);
