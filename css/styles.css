@@ -3445,7 +3445,7 @@ textarea.form-control-lg {
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
-  vertical-align: 0.255em;
+  vertical-align: 0.12em;
   content: "";
   border-top: 0.3em solid;
   border-right: 0.3em solid transparent;
@@ -3588,7 +3588,7 @@ textarea.form-control-lg {
 .dropup .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
-  vertical-align: 0.255em;
+  vertical-align: 0.12em;
   content: "";
   border-top: 0;
   border-right: 0.3em solid transparent;
@@ -3609,7 +3609,7 @@ textarea.form-control-lg {
 .dropend .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
-  vertical-align: 0.255em;
+  vertical-align: 0.12em;
   content: "";
   border-top: 0.3em solid transparent;
   border-right: 0;
@@ -3633,7 +3633,7 @@ textarea.form-control-lg {
 .dropstart .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
-  vertical-align: 0.255em;
+  vertical-align: 0.12em;
   content: "";
 }
 .dropstart .dropdown-toggle::after {
@@ -3642,7 +3642,7 @@ textarea.form-control-lg {
 .dropstart .dropdown-toggle::before {
   display: inline-block;
   margin-right: 0.255em;
-  vertical-align: 0.255em;
+  vertical-align: 0.12em;
   content: "";
   border-top: 0.3em solid transparent;
   border-right: 0.3em solid;
@@ -11156,6 +11156,10 @@ header {
 
 .navbar-brand > .bi-cup {
   vertical-align: -3%;
+}
+
+.navbar .dropdown-menu {
+  min-width: 288px;
 }
 
 section,

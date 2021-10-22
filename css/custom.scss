@@ -19,6 +19,9 @@ $navbar-light-disabled-color: rgba($dark, 0.4);
 $nav-link-font-size: x-large;
 $navbar-brand-font-size: 1.75rem;
 
+// Dropdown styling
+$caret-vertical-align: 0.12em;
+
 // Font styling
 // Caveat is a little small, so size headings up a bit
 $h1-font-size: 3rem;
@@ -56,6 +59,9 @@ header {
 }
 .navbar-brand > .bi-cup {
   vertical-align: -3%;
+}
+.navbar .dropdown-menu {
+  min-width: 288px;
 }
 
 section,
