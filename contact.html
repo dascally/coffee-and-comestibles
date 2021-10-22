@@ -47,7 +47,59 @@
           <a href="about.html" class="nav-link">About</a>
           <a href="#" class="nav-link active" aria-current="page">Contact</a>
           <div class="vr text-primary d-none d-md-block"></div>
-          <a href="#" class="nav-link">Login</a>
+          <div class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="outside"
+              aria-expanded="false"
+              >Login</a
+            >
+            <div class="dropdown-menu dropdown-menu-end bg-light mb-3">
+              <form class="py-1 px-3">
+                <div class="mb-2">
+                  <label for="loginEmail" class="form-label mb-1">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="loginEmail"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label for="loginPassword" class="form-label mb-1"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    name="password"
+                    id="loginPassword"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-2">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      name="remember"
+                      id="loginRemember"
+                      class="form-check-input"
+                    />
+                    <label for="loginRemember" class="form-check-label"
+                      >Remember me</label
+                    >
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary">Log in</button>
+                </div>
+              </form>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">New? Make an account.</a>
+              <a href="#" class="dropdown-item">Forgot password?</a>
+            </div>
+          </div>
         </div>
         <div class="col d-md-none"></div>
         <button
