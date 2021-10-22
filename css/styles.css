@@ -11161,7 +11161,7 @@ section,
   background-repeat: no-repeat;
 }
 
-.splash hbody {
+.splash hgroup {
   --bs-bg-opacity: 0.9;
 }
 
