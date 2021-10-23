@@ -64,6 +64,35 @@ $modal-content-bg: tint-color($body-bg, 75%);
 @import '../node_modules/bootstrap/scss/mixins';
 @import '../node_modules/bootstrap/scss/root';
 
+//**********************************//
+//*** Modify Bootstrap utilities ***//
+//**********************************//
+
+// Add responsive rounded classes for menu item cards
+$utilities: (
+  'rounded': (
+    responsive: true,
+    property: border-radius,
+    class: rounded,
+    values: (
+      null: $border-radius,
+      0: 0,
+      1: $border-radius-sm,
+      2: $border-radius,
+      3: $border-radius-lg,
+      circle: 50%,
+      pill: $border-radius-pill,
+    ),
+  ),
+  'rounded-start': (
+    responsive: true,
+    property: border-bottom-left-radius border-top-left-radius,
+    class: rounded-start,
+    values: (
+      null: $border-radius,
+    ),
+  ),
+);
 
 //*********************************************//
 //*** Import optional Bootstrap stylesheets ***//
