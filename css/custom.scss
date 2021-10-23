@@ -46,6 +46,9 @@ $accordion-bg: mix(white, $body-bg, 75%);
 $accordion-button-bg: mix(white, $primary, 90%);
 $accordion-button-color: mix(black, $primary, 10%);
 
+// Modal and offcanvas styling
+$modal-content-bg: mix(white, $body-bg, 75%);
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 header {
