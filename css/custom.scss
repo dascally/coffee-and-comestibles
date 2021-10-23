@@ -109,6 +109,12 @@ h6 {
 .card {
   background-color: tint-color($body-bg, 50%);
 }
+.card-menu-item img {
+  height: 160px;
+  min-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
 
 body > footer {
   margin-top: $spacer * 3;
