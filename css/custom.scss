@@ -11,18 +11,6 @@ $body-color: $dark;
 $link-color: $info;
 $input-bg: mix(white, $body-bg, 75%);
 
-// Navbar styling
-$navbar-light-color: rgba($dark, 0.75);
-$navbar-light-hover-color: rgba($primary, 0.97);
-$navbar-light-active-color: rgba($primary, 1);
-$navbar-light-disabled-color: rgba($dark, 0.4);
-$nav-link-font-size: x-large;
-$navbar-brand-font-size: 1.75rem;
-
-// Dropdown styling
-$caret-vertical-align: 0.12em;
-$dropdown-link-hover-bg: mix(black, $light, 12%);
-
 // Font styling
 // Caveat is a little small, so size headings up a bit
 $h1-font-size: 3rem;
@@ -40,6 +28,18 @@ $display-font-sizes: (
   6: 3rem,
 );
 $blockquote-font-size: 1rem;
+
+// Navbar styling
+$navbar-light-color: rgba($dark, 0.75);
+$navbar-light-hover-color: rgba($primary, 0.97);
+$navbar-light-active-color: rgba($primary, 1);
+$navbar-light-disabled-color: rgba($dark, 0.4);
+$nav-link-font-size: x-large;
+$navbar-brand-font-size: 1.75rem;
+
+// Dropdown styling
+$caret-vertical-align: 0.12em;
+$dropdown-link-hover-bg: mix(black, $light, 12%);
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
