@@ -3743,10 +3743,15 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-size: x-large;
+  font-size: calc(1.3rem + 0.6vw);
   color: #8a5189;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+@media (min-width: 1200px) {
+  .nav-link {
+    font-size: 1.75rem;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
