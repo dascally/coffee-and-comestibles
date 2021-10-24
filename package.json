@@ -8,7 +8,7 @@
     "prebuild": "rm -r dist",
     "build": "npm run build:css && parcel build",
     "build:css": "sass css/custom.scss css/styles.css",
-    "serve": "concurrently -n sass,parcel \"npm run watch:css\" \"parcel serve\"",
+    "serve": "concurrently -n sass,parcel \"npm run watch:css\" \"parcel serve --open\"",
     "watch:css": "sass --watch css/custom.scss css/styles.css"
   },
   "author": "Danny Scally",
