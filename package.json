@@ -5,7 +5,7 @@
   "source": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "rm -r dist",
+    "prebuild": "rm -rf dist",
     "build": "npm run build:css && parcel build",
     "build:css": "sass css/custom.scss css/styles.css",
     "serve": "concurrently -n sass,parcel \"npm run watch:css\" \"parcel serve --open\"",
