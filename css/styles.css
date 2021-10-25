@@ -3744,6 +3744,7 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   font-size: calc(1.3rem + 0.6vw);
+  font-weight: 500;
   color: #8a5189;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
