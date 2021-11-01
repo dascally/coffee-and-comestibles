@@ -60,6 +60,9 @@ $accordion-button-color: shade-color($primary, 10%);
 // Modal and offcanvas styling
 $modal-content-bg: tint-color($body-bg, 75%);
 
+// Enable negative margins
+$enable-negative-margins: true;
+
 //*********************************************//
 //*** Import required Bootstrap stylesheets ***//
 //*********************************************//
