@@ -17,6 +17,17 @@
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>Coffee & Comestibles: Menu</title>
+
+    <script
+      defer
+      src="node_modules/@popperjs/core/dist/umd/popper.min.js"
+    ></script>
+    <script
+      defer
+      type="module"
+      src="node_modules/bootstrap/dist/js/bootstrap.js"
+    ></script>
+    <script defer src="js/scripts.js"></script>
   </head>
   <body>
     <header>
@@ -198,8 +209,11 @@
                           <div class="card-body">
                             <div class="position-relative">
                               <h3 class="card-title h4">Banana bread latte</h3>
-                              <button
+                              <a
+                                role="button"
+                                tabindex="0"
                                 class="
+                                  menu-item-info
                                   position-absolute
                                   top-0
                                   end-0
@@ -211,9 +225,13 @@
                                   rounded
                                   text-primary
                                 "
+                                data-bs-toggle="popover"
+                                title="Allergen Info"
+                                data-bs-content="Contains: soy"
+                                data-bs-trigger="focus"
                               >
                                 <span class="bi-info-square-fill"></span>
-                              </button>
+                              </a>
                             </div>
                             <p class="card-text">
                               Lorem ipsum dolor, sit amet consectetur
@@ -395,11 +413,5 @@
         </div>
       </div>
     </footer>
-
-    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script
-      type="module"
-      src="node_modules/bootstrap/dist/js/bootstrap.js"
-    ></script>
   </body>
 </html>

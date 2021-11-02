@@ -57,6 +57,11 @@ $accordion-bg: tint-color($body-bg, 75%);
 $accordion-button-bg: tint-color($primary, 90%);
 $accordion-button-color: shade-color($primary, 10%);
 
+// Popover styling
+$popover-bg: tint-color($body-bg, 75%);
+$popover-header-bg: tint-color($primary, 90%);
+$popover-body-padding-y: 0.5rem;
+
 // Modal and offcanvas styling
 $modal-content-bg: tint-color($body-bg, 75%);
 
