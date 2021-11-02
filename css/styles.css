@@ -11301,6 +11301,14 @@ h6,
   object-fit: cover;
 }
 
+.menu-item-info {
+  background-color: rgba(189, 207, 160, 0.5);
+}
+
+.menu-item-info:hover {
+  background-color: rgba(189, 207, 160, 0.75);
+}
+
 body > footer {
   margin-top: 3rem;
   background: #dee7d0;
