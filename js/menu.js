@@ -1,4 +1,4 @@
-import { Popover } from '../node_modules/bootstrap/dist/js/bootstrap.esm.js';
+import { Popover } from 'bootstrap/dist/js/bootstrap.esm';
 
 const popovers = document.querySelectorAll('.menu-item-info[data-bs-toggle="popover"]');
 for (const elt of popovers) {
